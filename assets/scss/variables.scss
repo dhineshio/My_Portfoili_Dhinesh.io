@@ -1,2 +1,9 @@
-$primary_color:blue;
-$secondary_color:red;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+$poppins: "Poppins", sans-serif;
+
+$primary_color: #2cb179;
+$secondary_color: rgb(0, 33, 111);
+$background: #fff;
+$secondary_bg: rgb(0, 55, 109);
+$gray_color: rgb(215, 215, 215);
+$black_color: #000;
