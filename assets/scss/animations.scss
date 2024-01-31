@@ -37,3 +37,31 @@
     );
   }
 }
+
+@keyframes btm-to-top {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes icon-animation-left {
+  0% {
+    transform: translate(-100%, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes icon-animation-right {
+  0% {
+    transform: translate(100%, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

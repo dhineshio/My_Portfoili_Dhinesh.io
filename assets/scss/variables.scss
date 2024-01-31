@@ -2,6 +2,19 @@
 $poppins: "Poppins", sans-serif;
 
 $primary_color: #2cb179;
+$primary-gradient: linear-gradient(
+  90deg,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(44, 177, 121, 1) 41%,
+  rgba(0, 212, 255, 1) 100%
+);
+
+$secondary-gradient: linear-gradient(
+  90deg,
+  rgba(0, 127, 255, 1) 0%,
+  rgba(255, 255, 255, 1) 70%,
+  rgba(255, 0, 0, 1) 100%
+);
 $secondary_color: rgb(0, 33, 111);
 $background: #fff;
 $secondary_bg: rgb(0, 55, 109);
